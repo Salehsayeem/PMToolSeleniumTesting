@@ -9,3 +9,4 @@ Feature: Test login functionalities of PM Tool
     And hits sign in button
     And Stay signed in on microsoft
     Then user is navigated to im-tool page
+

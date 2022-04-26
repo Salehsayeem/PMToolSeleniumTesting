@@ -22,7 +22,7 @@ public class PmToolSteps {
         Thread.sleep(2000);
     }
     @And("select login link\\/button")
-    public void select_login_link_button() throws InterruptedException {
+    public void selectLoginLinkButton()  throws InterruptedException {
         System.out.println("Inside Step-select login link/button");
         WebElement loginLink = driver.findElement(By.xpath("//button[@class='btn-primary btn-sm']"));
         loginLink.click();
