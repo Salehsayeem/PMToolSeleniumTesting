@@ -12,7 +12,8 @@ public class PmToolSteps {
     @Given("open chrome browser")
     public void open_chrome_browser() {
         System.out.println("Inside Step- browser is open");
-        System.setProperty("webdriver.chrome.driver","D:\\Practices\\Selenium\\seleniumTesting\\src\\test\\resources\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver",
+                "D:\\Projects\\PMTCustomer\\Testing\\PMToolSeleniumTesting\\src\\test\\resources\\Drivers\\chromedriver.exe");
         driver = new ChromeDriver();
     }
     @And("user is on PM Tool  main page")
@@ -43,7 +44,7 @@ public class PmToolSteps {
     public void enters_microsoft_password()throws InterruptedException{
         System.out.println("Inside Step - enters microsoft password");
         WebElement inputPassword = driver.findElement(By.id("i0118"));
-        inputPassword.sendKeys("Welcome2022$");
+        inputPassword.sendKeys("1010997637@Hydrus");
         Thread.sleep(2000);
     }
     @And("hits sign in button")
