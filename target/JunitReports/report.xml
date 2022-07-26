@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="55.372">
+    <testcase classname="Test login functionalities of PM Tool" name="validate login functionality of PM Tool app is working" time="54.987">
+        <failure message="unknown error: cannot determine loading status&#10;from unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: '4.1.3', revision: '7b1ebf28ef'&#10;System info: host: 'DESKTOP-Q1BIE3M', ip: '192.168.31.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ab03d2481a89b765729d7eeed1f7793e, get {url=https://frontend.stg.tacodevdomain.com/im-tool}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58974/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ab03d2481a89b765729d7eeed1f7793e" type="org.openqa.selenium.WebDriverException">
+            <![CDATA[Given open chrome browser...................................................passed
+When user is on PM Tool  main page..........................................passed
+Then select login link button...............................................passed
+And user enters a parata Email Address and hits login button................passed
+Then enters microsoft password..............................................passed
+And hits sign in button.....................................................passed
+Then Stay signed in on microsoft............................................passed
+Then user is navigated to im-tool page......................................failed
+When click project status dropdown list.....................................skipped
+Then search customer........................................................skipped
+And click edit import file from options.....................................skipped
+Then browse and select file.................................................skipped
+And click upload button.....................................................skipped
+Then click dropdowns and map the columns from the options...................skipped
+And click next button.......................................................skipped
+Then select device type.....................................................skipped
+And check standard radio button.............................................skipped
+Then select checkbox of otc.................................................skipped
+And select checkbox of exclude schedule.....................................skipped
+Then select checkbox exclude unit of usage..................................skipped
+And select checkbox schedule................................................skipped
+Then select unit radio button...............................................skipped
+And check custom radio button...............................................skipped
+Then click dropdown and select quantity.....................................skipped
+And click dropdown and select quantity and size.............................skipped
+Then click on add button....................................................skipped
+Then click on import button.................................................skipped
+Then click all available tab................................................skipped
+Then click on add cddb button...............................................skipped
+Then click on drug search box and type drug name............................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-Q1BIE3M', ip: '192.168.31.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab03d2481a89b765729d7eeed1f7793e, get {url=https://frontend.stg.tacodevdomain.com/im-tool}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58974/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ab03d2481a89b765729d7eeed1f7793e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at StepDefinitions.PmToolSteps.user_is_navigated_to_im_tool_page(PmToolSteps.java:69)
+	at ✽.user is navigated to im-tool page(file:///E:/PMToolSeleniumTesting/src/test/resources/Features/PmToolLogin.feature:11)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
