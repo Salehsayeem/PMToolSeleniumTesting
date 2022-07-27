@@ -139,15 +139,14 @@ public class LoginPage extends CommonPageMethods {
         }
     }
 
-    public void clickLoginButtonv() {
-        click(btnLogin);
-    }
-
     public void clickSignInButton() {
         submit(btnSubmitFinal);
     }
-
-
-
-
+    public void clickCheckBox() {
+        click(checkBox);
+    }
+    public boolean isLoggedUserCorrect(String username) {
+        System.out.println(loggedUserName.getText());
+        return loggedUserName.getText().equalsIgnoreCase(username);
+    }
 }

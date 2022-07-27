@@ -41,72 +41,53 @@ public class LoginPageSteps extends AutomationBase{
             loginPage.typeEmailNew(username);
             loginPage.clickLoginButton();
             loginPage.typePasswordInternal(password);
-            //loginPage.clickLoginButton(); //added
+
             loginPage.clickSignInButton();
-            loginPage.clickSignInButton();
+
             smartWait.waitUntilPageIsLoaded(20);
         } else {
             System.out.println("Running external login steps");
             launcher.navigateToParataApplication();
             loginPage.clickMainLoginButton();
             loginPage.typeEmailNew(username);
-            //loginPage.clickLoginButton();
             loginPage.typePasswordExternal(password);
             loginPage.clickLoginButton();
             smartWait.actionDelay(5000);
             smartWait.waitUntilPageIsLoaded(20);
         }
 
-        if (username == (ConfigReader.getProperty("unauthorized.username"))) {
-            String landingUrl = openDriver().getCurrentUrl();
-            System.out.println(landingUrl);
-        } else if (!username.equals(ConfigReader.getProperty("IM.username")) & !username.equals(ConfigReader.getProperty("PTAC.username"))) {
-            String landingUrl = openDriver().getCurrentUrl();
-            System.out.println(landingUrl);
-        } else if (username.equals(ConfigReader.getProperty("PTAC.username"))) {
-            String landingUrl = openDriver().getCurrentUrl();
-            System.out.println(landingUrl);
-        } else {
-            String landingUrl = openDriver().getCurrentUrl();
-            System.out.println(landingUrl);
-        }
-        try {
-            loginPage.btnCloseWarning.click();
-        } catch (Exception e) {
-            System.out.println("No warning");
-        }
+//        if (username == (ConfigReader.getProperty("unauthorized.username"))) {
+//            String landingUrl = openDriver().getCurrentUrl();
+//            System.out.println(landingUrl);
+//        } else if (!username.equals(ConfigReader.getProperty("IM.username")) & !username.equals(ConfigReader.getProperty("PTAC.username"))) {
+//            String landingUrl = openDriver().getCurrentUrl();
+//            System.out.println(landingUrl);
+//        } else if (username.equals(ConfigReader.getProperty("PTAC.username"))) {
+//            String landingUrl = openDriver().getCurrentUrl();
+//            System.out.println(landingUrl);
+//        } else {
+//            String landingUrl = openDriver().getCurrentUrl();
+//            System.out.println(landingUrl);
+//        }
+
     }
 
-    @Then("select login link button")
-    public void selectLoginLinkButton() throws InterruptedException
-    {
-        launcher.navigateToParataApplication();
-        loginPage.clickMainLoginButton();
-        Thread.sleep(2000);
+    @Then("logged in to Parata UI Website {}")
+    public void logged_in_to_parata_ui_website(String arg0) throws InterruptedException {
+        System.out.println(loginPage.loggedUserName.getText());
+        String fullName = loginPage.loggedUserName.getText();
+        System.out.println(ConfigReader.getProperty("ValidLastNameForGayco"));
+        Assert.assertTrue(fullName.equalsIgnoreCase(ConfigReader.getProperty("ValidLastNameForGayco")) || fullName.equalsIgnoreCase(ConfigReader.getProperty("ValidLastNameForGaycoD")));
     }
 
-//    @When("user enters a parata Email Address and hits login button")
-//    public void userEntersAParataEmailAddress()throws InterruptedException {
-//
-//        driver.findElement(By.id("email")).sendKeys("vdr_ssayeem@parata.com");
-//        driver.findElement(By.id("btn-login")).click();
-//        System.out.println("Inside Step - enters a parata Email Address");
-//        Thread.sleep(2000);
-//    }
-//
-//    @Then("enters microsoft password")
-//    public void enters_microsoft_password()throws InterruptedException
+//    @Then("select login link button")
+//    public void selectLoginLinkButton() throws InterruptedException
 //    {
-//        driver.findElement(By.id("i0118")).sendKeys("1010997637@Hydrus");
-//        System.out.println("Inside Step - enters microsoft password");
+//        launcher.navigateToParataApplication();
+//        loginPage.clickMainLoginButton();
 //        Thread.sleep(2000);
 //    }
-//    @And("hits sign in button")
-//    public void hits_enter_button() throws InterruptedException
-//    {
-//        driver.findElement(By.id("idSIButton9")).submit();
-//        System.out.println("Inside Step - clicked login button");
-//        Thread.sleep(2000);
-//    }
+
+
 
 }
