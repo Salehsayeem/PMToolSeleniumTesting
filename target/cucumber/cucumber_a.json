@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-27T10:56:43.747Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4011800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.parata.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login to Taco UI with PM credentials",
+        "description": "",
+        "id": "login-and-logout-funcationlity-for-stratus-frontend;login-to-taco-ui-with-pm-credentials",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAJcCAYAAAASBf/6AAAAAXNSR0IArs4c6QAAEdVJREFUeJzt2LENwCAAwDDKF3zZ/5fyApkqJPuCzHnWer8BAAAAAMCx+XcAAAAAAMBtjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACINvczBlmbKaF5AAAAAElFTkSuQmCC",
+                "mime_type": "image/png",
+                "name": "LogintoTacoUIwithPMcredentials_fail.png"
+              }
+            ],
+            "result": {
+              "duration": 659783200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.parata.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class\u003d\u0027btn-primary btn-sm\u0027]\"}\n  (Session info: chrome\u003d103.0.5060.134)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-BFEAADD\u0027, ip: \u0027192.168.10.57\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54558}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4a1630eb3b2cc5e78f278868f51a07e6\n*** Element info: {Using\u003dxpath, value\u003d//button[@class\u003d\u0027btn-primary btn-sm\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat com.parata.utils.CommonPageMethods.click(CommonPageMethods.java:21)\r\n\tat com.parata.pages.LoginPage.clickMainLoginButton(LoginPage.java:81)\r\n\tat com.parata.steps.LoginPageSteps.userLoggedInTacoUIWithCredentials(LoginPageSteps.java:51)\r\n\tat ✽.user logged in TacoUI with \"GAYCOPM\" credentials(file:///E:/work/PMToolSeleniumTesting/src/test/resources/features/PmLogin/PmToolLogin.feature:5)\r\n",
+              "duration": 12830461500,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user logged in TacoUI with \"GAYCOPM\" credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GAYCOPM\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.parata.steps.LoginPageSteps.userLoggedInTacoUIWithCredentials(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 944100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "select login link button",
+            "match": {
+              "location": "com.parata.steps.LoginPageSteps.selectLoginLinkButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@atest"
+          },
+          {
+            "name": "@positive"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login and Logout funcationlity for Stratus Frontend",
+    "description": "",
+    "id": "login-and-logout-funcationlity-for-stratus-frontend",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PmLogin/PmToolLogin.feature",
+    "tags": [
+      {
+        "name": "@atest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 3
+        }
+      }
+    ]
+  }
+]
