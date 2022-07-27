@@ -1,8 +1,8 @@
-Feature: Test login functionalities of PM Tool
-
-  Scenario: validate login functionality of PM Tool app is working
-    Given user visits to the pm portal
-    When  user on PM Tool  main page
+  @atest
+  Feature:Login and Logout funcationlity for Stratus Frontend
+  @positive @sanity
+  Scenario: Login to Taco UI with PM credentials
+    Given user logged in TacoUI with "GAYCOPM" credentials
     Then  select login link button
 #    And   user enters a parata Email Address and hits login button
 #    Then  enters microsoft password

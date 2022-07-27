@@ -45,7 +45,6 @@ public class AutomationBase {
     }
 
     public static WebDriver openDriver() {
-
         return driverThread.get().getDriver();
     }
 
