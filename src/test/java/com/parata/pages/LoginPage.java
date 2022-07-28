@@ -13,7 +13,7 @@ public class LoginPage extends CommonPageMethods {
 
     SmartWait smartWait = new SmartWait();
 
-    @FindBy(how = How.XPATH, using = ("//button[@class='btn-primary btn-sm']"))
+    @FindBy(how = How.CSS, using = ("mat-card-actions > button"))
     public WebElement btnMainLogin;
 
     @FindBy(how = How.ID, using = ("pendo-close-guide-3e3a5ca8"))
@@ -30,12 +30,6 @@ public class LoginPage extends CommonPageMethods {
 
     @FindBy(how = How.ID, using = ("password"))
     public WebElement txtPasswordID;
-
-    @FindBy(how = How.CSS, using = ("#auth0-lock-container-1 > div > div.auth0-lock-center > form > div > div > div > button > span"))
-    public WebElement btnLoginauth0;
-
-    @FindBy(how = How.NAME, using = ("passwd"))
-    public WebElement txtPassword2;
 
     @FindBy(how = How.ID, using = ("i0118"))
     public WebElement txtPassword3;
@@ -66,6 +60,7 @@ public class LoginPage extends CommonPageMethods {
 
     @FindBy(how = How.XPATH, using = ("//div[@class='user_profile']"))
     public WebElement accountDropdown;
+
 
     @FindBy(how = How.XPATH, using = ("//button[contains(text(),'Logout')]"))
     public WebElement logoutButton;
@@ -109,11 +104,7 @@ public class LoginPage extends CommonPageMethods {
             } catch (Exception e2) {
                 txtPassword3.sendKeys(strPassword);
             }
-          /*  try {
-                txtPassword3.sendKeys(strPassword);
-            } catch (Exception e2) {
 
-            }*/
         }
     }
 
@@ -123,11 +114,7 @@ public class LoginPage extends CommonPageMethods {
         } catch (Exception e2) {
             txtPassword3.sendKeys(strPassword);
         }
-       /* try {
-            txtPassword2.sendKeys(strPassword);
-        } catch (Exception e2) {
 
-        }*/
     }
 
     public void clickLoginButton() {
@@ -148,5 +135,10 @@ public class LoginPage extends CommonPageMethods {
     public boolean isLoggedUserCorrect(String username) {
         System.out.println(loggedUserName.getText());
         return loggedUserName.getText().equalsIgnoreCase(username);
+    }
+
+    public void clickLogout() {
+        click(accountDropdown);
+        click(logoutButton);
     }
 }

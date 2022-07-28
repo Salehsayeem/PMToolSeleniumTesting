@@ -18,8 +18,6 @@ import java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.sql.SQLException;
 
-
-
 public class ImplementionMgtSteps extends AutomationBase{
 
     SmartWait smartWait = new SmartWait();
