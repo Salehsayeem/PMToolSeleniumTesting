@@ -1,4 +1,6 @@
+
 @btest
+
 Feature:Login functionality for Stratus Frontend
 
   @positive @sanity
@@ -23,9 +25,12 @@ Feature:Login functionality for Stratus Frontend
 
 
 
+<<<<<<< HEAD
 
 
 
 
 
 
+=======
+>>>>>>> 3dfeb47aadf6f311d65d9e8325e745d66f1b27d9
