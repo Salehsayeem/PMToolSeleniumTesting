@@ -14,13 +14,10 @@ import org.junit.runner.RunWith;
         glue = "com.parata.steps",
         monochrome = true,
         tags = "@atest",
-        plugin = { "pretty", "html:target/cucumber/cucumber-prettyb.html",
-                   "json:target/cucumber/cucumber_b.json",
-                    "junit:target/cucumber/cucumber_b.xml"})
+        plugin = { "pretty", "html:target/cucumber/cucumber-prettya.html",
+                "json:target/cucumber/cucumber_a.json",
+                "junit:target/cucumber/cucumber_a.xml"})
 
 
-public class BTestRunner {
-
-
+public class ATestRunner {
 }
-

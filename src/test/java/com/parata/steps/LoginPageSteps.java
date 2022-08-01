@@ -26,6 +26,18 @@ public class LoginPageSteps extends AutomationBase{
         testContext = context;
     }
 
+    @Given("user logged in TacoUI")
+    public void userloggedinTacoUI()
+    {
+        System.out.println("Running external login steps");
+        launcher.navigateToParataApplication();
+        loginPage.clickMainLoginButton();
+        loginPage.typeEmailNew("vdr_ssayeem@parata.com");
+        //loginPage.clickLoginButton();
+        loginPage.typePasswordExternal("1010997637@Hydrus");
+        loginPage.clickLoginButton();
+    }
+
 
     @Given("user logged in TacoUI with {string} credentials")
     public void userLoggedInTacoUIWithCredentials(String arg0) {
@@ -40,11 +52,8 @@ public class LoginPageSteps extends AutomationBase{
             launcher.navigateToParataApplication();
             loginPage.clickMainLoginButton();
             loginPage.typeEmailNew(username);
-            loginPage.clickLoginButton();
             loginPage.typePasswordInternal(password);
-
-            loginPage.clickSignInButton();
-
+            loginPage.clickLoginButton();
             smartWait.waitUntilPageIsLoaded(20);
         } else {
             System.out.println("Running external login steps");
@@ -89,6 +98,13 @@ public class LoginPageSteps extends AutomationBase{
         //Assert.assertTrue(loginPage.warningAuthorization.getText().equalsIgnoreCase("You do not have authorization to access site, Please reach out to your Pharmacy's Admin if you have any questions"));
     }
 
+    @When("user clicks login button")
+    public void user_clicks_login_button() throws InterruptedException {
+        loginPage.clickLoginButton();
+        Thread.sleep(3000);
+    }
+
+
     @When("user relogs in TacoUI with {string} credentials")
     public void userRelogsWithUserCredentials(String user) {
         loginPage.clickLogout();
@@ -102,7 +118,6 @@ public class LoginPageSteps extends AutomationBase{
             loginPage.clickLoginButton();
             loginPage.typePasswordInternal(password);
             //loginPage.clickLoginButton(); //added
-            loginPage.clickSignInButton();
             loginPage.clickSignInButton();
             smartWait.actionDelay(5000);
             smartWait.waitUntilPageIsLoaded(20);

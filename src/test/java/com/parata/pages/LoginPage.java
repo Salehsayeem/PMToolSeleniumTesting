@@ -141,4 +141,6 @@ public class LoginPage extends CommonPageMethods {
         click(accountDropdown);
         click(logoutButton);
     }
+
+
 }
