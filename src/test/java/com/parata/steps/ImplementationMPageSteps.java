@@ -41,13 +41,13 @@ public class ImplementationMPageSteps extends AutomationBase {
         smartWait.waitUntilPageIsLoaded(15);
     }
 
-    @And("user clicks Project Status dropdown")
+    @Then("user clicks Project Status dropdown")
     public void userClicksAllRolesDropdown() throws InterruptedException {
         smartWait.waitUntilPageIsLoaded(20);
         implementationMPage.userclickedAllStatus();
     }
 
-    @When("select {string} project status")
+    @And("select {string} project status")
     public void selectRole(String arg0) throws InterruptedException {
         Utility.dropdownCount(openDriver(), ".mat-option>span");
         implementationMPage.selectBtnImplementationManager();

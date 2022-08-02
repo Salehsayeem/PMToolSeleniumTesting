@@ -6,8 +6,8 @@ Feature: Base functionality for Implemention Management
     Given user logged in TacoUI with "IM" credentials
     When  user clicks  ImplementaionMgmt icon
     Then  user should land "im-tool" page
-    And   user clicks Project Status dropdown
-    When  select 'NotProcessed' project status
+    Then  user clicks Project Status dropdown
+    And   select 'NotProcessed' project status
 
  
 
