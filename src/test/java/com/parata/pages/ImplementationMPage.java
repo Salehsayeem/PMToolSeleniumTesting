@@ -24,8 +24,12 @@ public class ImplementationMPage extends CommonPageMethods {
     @FindBy(how = How.XPATH, using = ("//*[@id=\"D-MnuImTool\"]/a/div"))
     public WebElement btnImplementationMgt;
 
-    @FindBy(how = How.XPATH, using = ("//td[contains(text(),'DUBLIN')]"))
-    public WebElement linkDublin;
+    @FindBy(how = How.XPATH, using = ("//*[@id=\"mat-select-0\"]"))
+    public WebElement dropdownAllStatus;
+
+    @FindBy(how = How.XPATH, using = ("//*[@id=\"mat-option-5\"]/span"))
+    public WebElement btnNotProcessed;
+
 
     WebDriver webDriver;
 
@@ -34,8 +38,16 @@ public class ImplementationMPage extends CommonPageMethods {
         PageFactory.initElements(webDriver, this);
     }
 
-    public void implementaionMgmtClicked()
-    {
+    public void implementaionMgmtClicked(){
         click(btnImplementationMgt);
     }
+
+    public void userclickedAllStatus() throws InterruptedException {
+        click(dropdownAllStatus);
+    }
+
+    public void selectBtnImplementationManager() throws InterruptedException {
+        click(btnNotProcessed);
+    }
+
 }

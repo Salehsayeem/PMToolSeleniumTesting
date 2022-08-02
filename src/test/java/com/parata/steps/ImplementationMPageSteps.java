@@ -24,7 +24,7 @@ public class ImplementationMPageSteps extends AutomationBase {
     SmartWait smartWait = new SmartWait();
     WebDriver webDriver = openDriver();
 
-    public ImplementationMPageSteps(TestContext context){
+    public ImplementationMPageSteps(TestContext context) {
         testContext = context;
     }
 
@@ -41,6 +41,19 @@ public class ImplementationMPageSteps extends AutomationBase {
         smartWait.waitUntilPageIsLoaded(15);
     }
 
+    @And("user clicks Project Status dropdown")
+    public void userClicksAllRolesDropdown() throws InterruptedException {
+        smartWait.waitUntilPageIsLoaded(20);
+        implementationMPage.userclickedAllStatus();
+    }
+
+    @When("select {string} project status")
+    public void selectRole(String arg0) throws InterruptedException {
+        Utility.dropdownCount(openDriver(), ".mat-option>span");
+        implementationMPage.selectBtnImplementationManager();
+        smartWait.waitUntilPageIsLoaded(30);
+    }
 
 }
+
 
