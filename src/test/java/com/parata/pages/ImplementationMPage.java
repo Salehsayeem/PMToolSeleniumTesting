@@ -2,22 +2,27 @@ package com.parata.pages;
 
 
 import com.parata.utils.CommonPageMethods;
+import com.parata.utils.SmartWait;
+import com.parata.utils.Utility;
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 /**
  * @author MFU
  * 1/7/2021
  */
 public class ImplementationMPage extends CommonPageMethods {
-    @FindBy(how = How.ID, using = ("OrgConsumablesTab"))
-    public WebElement link_Consumable_Subscription;
 
-    @FindBy(how = How.XPATH, using = ("//h4[contains(text(),'Consumable Order Setup')]"))
-    public WebElement txt_Consumable_Subscription;
+    @FindBy(how = How.XPATH, using = ("//*[@id=\"D-MnuImTool\"]/a/div"))
+    public WebElement btnImplementationMgt;
 
     @FindBy(how = How.XPATH, using = ("//td[contains(text(),'DUBLIN')]"))
     public WebElement linkDublin;
@@ -28,13 +33,9 @@ public class ImplementationMPage extends CommonPageMethods {
         this.webDriver = webDriver;
         PageFactory.initElements(webDriver, this);
     }
-    public void isConsumable_SubcriptionLinkAvaliable()
+
+    public void implementaionMgmtClicked()
     {
-        link_Consumable_Subscription.isEnabled();
-        System.out.println("ConsumablevSubcription Avaliable");
-    }
-    public void dublinLink() throws InterruptedException {
-        click(linkDublin);
-        System.out.println("ConsumablevSubcription Avaliable");
+        click(btnImplementationMgt);
     }
 }

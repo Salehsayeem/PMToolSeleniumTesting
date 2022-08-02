@@ -52,20 +52,44 @@ public class LoginPageSteps extends AutomationBase{
             launcher.navigateToParataApplication();
             loginPage.clickMainLoginButton();
             loginPage.typeEmailNew(username);
-            loginPage.typePasswordInternal(password);
             loginPage.clickLoginButton();
+            loginPage.typePasswordInternal(password);
+            //loginPage.clickLoginButton(); //added
+            loginPage.clickSignInButton();
+            loginPage.clickSignInButton();
             smartWait.waitUntilPageIsLoaded(20);
         } else {
             System.out.println("Running external login steps");
             launcher.navigateToParataApplication();
             loginPage.clickMainLoginButton();
             loginPage.typeEmailNew(username);
+            //loginPage.clickLoginButton();
             loginPage.typePasswordExternal(password);
             loginPage.clickLoginButton();
             smartWait.actionDelay(5000);
             smartWait.waitUntilPageIsLoaded(20);
         }
-
+        //Previous Login steps
+        /* if (username.contains(("@parata.com"))) {
+            System.out.println("Running internal login steps");
+            launcher.navigateToParataApplication();
+            loginPage.clickMainLoginButton();
+            loginPage.typeEmail(username);
+            loginPage.clickLoginButton();
+            loginPage.typePasswordInternal(password);
+            loginPage.clickSignInButton();
+            loginPage.clickSignInButton();
+            smartWait.waitUntilPageIsLoaded(20);
+        } else {
+            System.out.println("Running external login steps");
+            launcher.navigateToParataApplication();
+            loginPage.clickMainLoginButton();
+            loginPage.typeEmail(username);
+            loginPage.clickLoginButton();
+            loginPage.typePasswordExternal(password);
+            loginPage.clickLoginButton();
+            smartWait.waitUntilPageIsLoaded(20);
+        }*/
         if (username == (ConfigReader.getProperty("unauthorized.username"))) {
             String landingUrl = openDriver().getCurrentUrl();
             System.out.println(landingUrl);
@@ -79,7 +103,11 @@ public class LoginPageSteps extends AutomationBase{
             String landingUrl = openDriver().getCurrentUrl();
             System.out.println(landingUrl);
         }
-
+        try {
+            loginPage.btnCloseWarning.click();
+        } catch (Exception e) {
+            System.out.println("No warning");
+        }
     }
 
     @Then("logged in to Parata UI Website {}")

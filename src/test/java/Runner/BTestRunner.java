@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/",
         glue = "com.parata.steps",
         monochrome = true,
-        tags = "@atest",
+        tags = "@btest",
         plugin = { "pretty", "html:target/cucumber/cucumber-prettyb.html",
                    "json:target/cucumber/cucumber_b.json",
                     "junit:target/cucumber/cucumber_b.xml"})

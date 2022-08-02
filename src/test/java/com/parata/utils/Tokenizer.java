@@ -33,8 +33,8 @@ public class Tokenizer extends AutomationBase {
                         .audience("https://m2maspnet/api")
                         .grant_type("http://auth0.com/oauth/grant-type/password-realm")
                        // .username("testuser_admin@parataqa.com")
-                        .username("testuser_admin@parataa.com")
-                        .password("everyA@09").realm("parata-auth").build();
+                        .username("vdr_ssayeem@parata.com")
+                        .password("1010997637@Hydrus").realm("parata-auth").build();
                 requestSpec = getSpec("production_TokenStg", Boolean.parseBoolean("false"));
                 System.out.println("Staging Token");
                 break;

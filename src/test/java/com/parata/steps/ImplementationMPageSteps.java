@@ -7,6 +7,7 @@ import com.parata.utils.Utility;
 import com.parata.utils.context.TestContext;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -27,25 +28,17 @@ public class ImplementationMPageSteps extends AutomationBase {
         testContext = context;
     }
 
-    @Then("user should see {string}")
-    public void userShouldSeeText(String text) {
-        System.out.println(new ByAll(By.id(text), (By.xpath(String.format("//*[(text()='%s')]",text))), By.xpath(String.format("//*[contains(text(),'%s')]",text))));
-        WebElement txtContains = webDriver.findElement(new ByAll(By.id(text), (By.xpath(String.format("//*[(text()='%s')]",text))), By.xpath(String.format("//*[contains(text(),'%s')]",text))));
-        Assert.assertTrue(text +"  is not visible", txtContains.isDisplayed());
+    @When("user clicks  ImplementaionMgmt icon")
+    public void implementaionMgmtClicked() {
+        implementationMPage.implementaionMgmtClicked();
     }
 
-    @And("user click DUBLIN icon")
-    public void userClickDUBLINIcon() throws InterruptedException {
-
-        implementationMPage.dublinLink();
-    }
-
-    @Then("user should not see {string} icon")
-    public void userShouldNotSeeConsumablesSubscriptionIcon(String text) {
-        smartWait.waitUntilPageIsLoaded(20);
-        Assert.assertFalse(Utility.elementExists(implementationMPage.txt_Consumable_Subscription));
-        System.out.println(text +" text is not visible");
-
+    @Then("user should land {string} page")
+    public void userShouldLandPage(String url_part) {
+        String landingUrl = openDriver().getCurrentUrl();
+        System.out.println(landingUrl);
+        Assert.assertTrue(landingUrl.contains(url_part));
+        smartWait.waitUntilPageIsLoaded(15);
     }
 
 
