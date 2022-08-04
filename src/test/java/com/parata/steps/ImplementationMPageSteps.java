@@ -22,36 +22,50 @@ import org.openqa.selenium.support.pagefactory.ByAll;
 public class ImplementationMPageSteps extends AutomationBase {
     ImplementationMPage implementationMPage = new ImplementationMPage(openDriver());
     SmartWait smartWait = new SmartWait();
-    WebDriver webDriver = openDriver();
+
 
     public ImplementationMPageSteps(TestContext context) {
         testContext = context;
     }
 
-    @When("user clicks  ImplementaionMgmt icon")
+    @When("user clicks ImplementaionMgmt icon")
     public void implementaionMgmtClicked() {
         implementationMPage.implementaionMgmtClicked();
     }
 
-    @Then("user should land {string} page")
-    public void userShouldLandPage(String url_part) {
+    @Then("user will land {string} page")
+    public void userWillLandPage(String url_part) {
         String landingUrl = openDriver().getCurrentUrl();
         System.out.println(landingUrl);
         Assert.assertTrue(landingUrl.contains(url_part));
         smartWait.waitUntilPageIsLoaded(15);
     }
 
-    @Then("user clicks Project Status dropdown")
+    @And("user clicks Project Status dropdown")
     public void userClicksAllRolesDropdown() throws InterruptedException {
-        smartWait.waitUntilPageIsLoaded(20);
-        implementationMPage.userclickedAllStatus();
+         implementationMPage.userclickedAllStatus();
+         smartWait.waitUntilPageIsLoaded(15);
+
     }
 
     @And("select {string} project status")
     public void selectRole(String arg0) throws InterruptedException {
         Utility.dropdownCount(openDriver(), ".mat-option>span");
         implementationMPage.selectBtnImplementationManager();
-        smartWait.waitUntilPageIsLoaded(30);
+        smartWait.waitUntilPageIsLoaded(15);
+
+    }
+
+    @And("user enters {string} into the search bar")
+    public void searchCustomerNumber(String customerNumber) throws InterruptedException{
+        implementationMPage.enterCustomerNumber(customerNumber);
+        smartWait.waitUntilPageIsLoaded(70);
+    }
+
+    @Then("user click import button")
+    public void clickImportButton() throws InterruptedException{
+        implementationMPage.userclickedImportButton();
+        smartWait.waitUntilPageIsLoaded(70);
     }
 
 }

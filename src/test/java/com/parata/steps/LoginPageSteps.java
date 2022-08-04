@@ -110,13 +110,6 @@ public class LoginPageSteps extends AutomationBase{
         }
     }
 
-    @Then("logged in to Parata UI Website {}")
-    public void logged_in_to_parata_ui_website(String arg0) throws InterruptedException {
-        System.out.println(loginPage.loggedUserName.getText());
-        String fullName = loginPage.loggedUserName.getText();
-        System.out.println(ConfigReader.getProperty("ValidLastNameForGayco"));
-        Assert.assertTrue(fullName.equalsIgnoreCase(ConfigReader.getProperty("ValidLastNameForGayco")) || fullName.equalsIgnoreCase(ConfigReader.getProperty("ValidLastNameForGaycoD")));
-    }
 
     @Then("user should see warning and should not log in to Parata UI Website")
     public void userShouldSeeWarningOnParataUIWebsite() throws InterruptedException {

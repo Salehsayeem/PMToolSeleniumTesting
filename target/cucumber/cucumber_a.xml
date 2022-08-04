@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="51.687">
-    <testcase classname="Login and Logout funcationlity for Stratus Frontend" name="Login to Taco UI with PM credentials" time="51.43">
-        <failure message="Timeout waiting for the page load request to complete" type="java.lang.AssertionError">
-            <![CDATA[Given user logged in TacoUI with "IM" credentials...........................failed
-Then logged in to Parata UI Website "ValidLastNameForGayco".................skipped
-And user clicks login button................................................skipped
-
-StackTrace:
-java.lang.AssertionError: Timeout waiting for the page load request to complete
-	at org.junit.Assert.fail(Assert.java:89)
-	at com.parata.utils.SmartWait.waitUntilPageIsLoaded(SmartWait.java:49)
-	at com.parata.utils.CommonPageMethods.click(CommonPageMethods.java:28)
-	at com.parata.pages.LoginPage.clickLoginButton(LoginPage.java:122)
-	at com.parata.steps.LoginPageSteps.userLoggedInTacoUIWithCredentials(LoginPageSteps.java:64)
-	at ✽.user logged in TacoUI with "IM" credentials(file:///E:/work/PMToolSeleniumTesting/src/test/resources/features/PmLogin/PmToolLogin.feature:5)
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="109.455">
+    <testcase classname="Base Functionality for Implementation Manager" name="Verify selected project status should be reflect in filtered area" time="109.306">
+        <system-out>
+            <![CDATA[Given user logged in TacoUI with "IM" credentials...........................passed
+When user clicks  ImplementaionMgmt icon....................................passed
+Then user will land "im-tool" page..........................................passed
+And user clicks Project Status dropdown.....................................passed
+And select 'NotProcessed' project status....................................passed
+Then user enters "131116" into the search bar for scearching customer.......passed
+Then user click import button...............................................passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>

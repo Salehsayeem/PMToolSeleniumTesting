@@ -49,8 +49,7 @@ public class LoginPage extends CommonPageMethods {
     @FindBy(how = How.ID, using = ("btn-login"))
     public WebElement btnLogin2;
 
-    @FindBy(how = How.CSS, using = ("button span span"))
-    public WebElement loggedUserName;
+
 
     @FindBy(how = How.ID, using = ("mat-checkbox-1-input"))
     public WebElement checkBox;
@@ -131,10 +130,6 @@ public class LoginPage extends CommonPageMethods {
     }
     public void clickCheckBox() {
         click(checkBox);
-    }
-    public boolean isLoggedUserCorrect(String username) {
-        System.out.println(loggedUserName.getText());
-        return loggedUserName.getText().equalsIgnoreCase(username);
     }
 
     public void clickLogout() {

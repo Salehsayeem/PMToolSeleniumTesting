@@ -3,48 +3,16 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-08-02T05:25:41.424Z",
-        "before": [
-          {
-            "result": {
-              "duration": 14283100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.parata.steps.Hooks.setup()"
-            }
-          }
-        ],
         "line": 4,
-        "name": "Login to Taco UI with PM credentials",
+        "name": "user logged in",
         "description": "",
-        "id": "login-and-logout-funcationlity-for-stratus-frontend;login-to-taco-ui-with-pm-credentials",
-        "after": [
-          {
-            "embeddings": [
-              {
-                "data": "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AAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAAScIqAAAAAECSsAoAAAAAkCSsAgAAAAAkCasAAAAAAEnCKgAAAABAkrAKAAAAAJAkrAIAAAAAJAmrAAAAAABJwioAAAAAQJKwCgAAAACQJKwCAAAAACQJqwAAAAAASf8f7bg4guvmYhwAAAAASUVORK5CYII\u003d",
-                "mime_type": "image/png",
-                "name": "LogintoTacoUIwithPMcredentials_fail.png"
-              }
-            ],
-            "result": {
-              "duration": 1522794900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.parata.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Timeout waiting for the page load request to complete\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat com.parata.utils.SmartWait.waitUntilPageIsLoaded(SmartWait.java:49)\r\n\tat com.parata.utils.CommonPageMethods.click(CommonPageMethods.java:28)\r\n\tat com.parata.pages.LoginPage.clickLoginButton(LoginPage.java:122)\r\n\tat com.parata.steps.LoginPageSteps.userLoggedInTacoUIWithCredentials(LoginPageSteps.java:64)\r\n\tat ✽.user logged in TacoUI with \"IM\" credentials(file:///E:/work/PMToolSeleniumTesting/src/test/resources/features/PmLogin/PmToolLogin.feature:5)\r\n",
-              "duration": 49839569500,
-              "status": "failed"
+              "duration": 69339275700,
+              "status": "passed"
             },
             "line": 5,
             "name": "user logged in TacoUI with \"IM\" credentials",
@@ -58,41 +26,132 @@
               "location": "com.parata.steps.LoginPageSteps.userLoggedInTacoUIWithCredentials(java.lang.String)"
             },
             "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-04T06:41:19.067Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2035700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.parata.steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify selected project status should be reflect in filtered area",
+        "description": "",
+        "id": "base-functionality-for-implementation-manager;verify-selected-project-status-should-be-reflect-in-filtered-area",
+        "after": [
+          {
+            "result": {
+              "duration": 659455600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.parata.steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7258902800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks  ImplementaionMgmt icon",
+            "match": {
+              "location": "com.parata.steps.ImplementationMPageSteps.implementaionMgmtClicked()"
+            },
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 1001500,
-              "status": "skipped"
+              "duration": 2045450800,
+              "status": "passed"
             },
-            "line": 6,
-            "name": "logged in to Parata UI Website \"ValidLastNameForGayco\"",
+            "line": 10,
+            "name": "user will land \"im-tool\" page",
             "match": {
               "arguments": [
                 {
-                  "val": "\"ValidLastNameForGayco\"",
-                  "offset": 31
+                  "val": "\"im-tool\"",
+                  "offset": 15
                 }
               ],
-              "location": "com.parata.steps.LoginPageSteps.logged_in_to_parata_ui_website(java.lang.String)"
+              "location": "com.parata.steps.ImplementationMPageSteps.userWillLandPage(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 9208364600,
+              "status": "passed"
             },
-            "line": 7,
-            "name": "user clicks login button",
+            "line": 11,
+            "name": "user clicks Project Status dropdown",
             "match": {
-              "location": "com.parata.steps.LoginPageSteps.user_clicks_login_button()"
+              "location": "com.parata.steps.ImplementationMPageSteps.userClicksAllRolesDropdown()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9342885500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select \u0027NotProcessed\u0027 project status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027NotProcessed\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "com.parata.steps.ImplementationMPageSteps.selectRole(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2189015200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters \"131116\" into the search bar for scearching customer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"131116\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.parata.steps.ImplementationMPageSteps.searchCustomerNumber(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9238836200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click import button",
+            "match": {
+              "location": "com.parata.steps.ImplementationMPageSteps.clickImportButton()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
-          {
-            "name": "@login"
-          },
           {
             "name": "@atest"
           },
@@ -105,26 +164,18 @@
         ]
       }
     ],
-    "name": "Login and Logout funcationlity for Stratus Frontend",
+    "name": "Base Functionality for Implementation Manager",
     "description": "",
-    "id": "login-and-logout-funcationlity-for-stratus-frontend",
+    "id": "base-functionality-for-implementation-manager",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/PmLogin/PmToolLogin.feature",
+    "uri": "file:src/test/resources/features/ImplementaionMgmt/ImplementionMgmt.feature",
     "tags": [
-      {
-        "name": "@login",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      },
       {
         "name": "@atest",
         "type": "Tag",
         "location": {
           "line": 1,
-          "column": 8
+          "column": 1
         }
       }
     ]

@@ -21,7 +21,7 @@ import org.openqa.selenium.support.ui.Select;
  */
 public class ImplementationMPage extends CommonPageMethods {
 
-    @FindBy(how = How.XPATH, using = ("//*[@id=\"D-MnuImTool\"]/a/div"))
+    @FindBy(how = How.XPATH, using = ("//*[@id=\"D-MnuImTool\"]/a"))
     public WebElement btnImplementationMgt;
 
     @FindBy(how = How.XPATH, using = ("//*[@id=\"mat-select-0\"]"))
@@ -30,6 +30,12 @@ public class ImplementationMPage extends CommonPageMethods {
     @FindBy(how = How.XPATH, using = ("//*[@id=\"mat-option-5\"]/span"))
     public WebElement btnNotProcessed;
 
+
+    @FindBy(how = How.ID, using = ("search_customers"))
+    public WebElement inputCustomerNumber;
+
+    @FindBy(how = How.XPATH, using = ("//*[@id=\"add_site\"]"))
+    public WebElement btnImport;
 
     WebDriver webDriver;
 
@@ -49,5 +55,14 @@ public class ImplementationMPage extends CommonPageMethods {
     public void selectBtnImplementationManager() throws InterruptedException {
         click(btnNotProcessed);
     }
+
+    public void enterCustomerNumber(String customerNumber) {
+        inputCustomerNumber.sendKeys(customerNumber);
+    }
+
+    public void userclickedImportButton() throws InterruptedException {
+        click(btnImport);
+    }
+
 
 }
