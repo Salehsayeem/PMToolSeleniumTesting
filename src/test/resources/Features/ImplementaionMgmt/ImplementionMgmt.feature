@@ -11,7 +11,7 @@ Feature: Base Functionality for Implementation Manager
     And user clicks Project Status dropdown
     And select 'NotProcessed' project status
     And user enters "131116" into the search bar
-    Then user click import button
+    And user click import button
 
 
 

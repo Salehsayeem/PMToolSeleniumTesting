@@ -9,6 +9,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
+/**
+ * @author Abid
+ * 8/2/2021
+ */
+
 public class LoginPage extends CommonPageMethods {
 
     SmartWait smartWait = new SmartWait();

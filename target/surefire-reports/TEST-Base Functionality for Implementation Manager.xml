@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Base Functionality for Implementation Manager" time="109.432" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Base Functionality for Implementation Manager" time="109.707" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.15\bin"/>
-    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire78683295702620325\surefirebooter4502227943471926173.jar C:\Users\user\AppData\Local\Temp\surefire78683295702620325 2022-08-04T12-41-17_307-jvmRun1 surefire7774570544469791888tmp surefire_012795818698404557347tmp"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire15212438745944541505\surefirebooter12224563358934137060.jar C:\Users\user\AppData\Local\Temp\surefire15212438745944541505 2022-08-04T14-46-34_207-jvmRun1 surefire8515563077987486732tmp surefire_06628559798461003470tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\work\PMToolSeleniumTesting\target\test-classes;E:\work\PMToolSeleniumTesting\target\classes;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\user\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\user\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\user\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\user\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\user\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\user\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\user\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\user\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\user\.m2\repository\postgresql\postgresql\9.1-901.jdbc4\postgresql-9.1-901.jdbc4.jar;C:\Users\user\.m2\repository\org\awaitility\awaitility\4.0.1\awaitility-4.0.1.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\user\.m2\repository\org\awaitility\awaitility-proxy\3.1.6\awaitility-proxy-3.1.6.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\user\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\user\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\user\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-picocontainer\6.11.0\cucumber-picocontainer-6.11.0.jar;C:\Users\user\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\user\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\user\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\user\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\user\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\user\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\user\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\user\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\user\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\user\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\user\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\user\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\user\.m2\repository\org\assertj\assertj-core\3.20.0\assertj-core-3.20.0.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.18\lombok-1.18.18.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2\jackson-databind-2.13.2.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\user\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\user\.m2\repository\com\google\api-client\google-api-client\1.30.9\google-api-client-1.30.9.jar;C:\Users\user\.m2\repository\com\google\oauth-client\google-oauth-client\1.30.5\google-oauth-client-1.30.5.jar;C:\Users\user\.m2\repository\com\google\http-client\google-http-client\1.34.0\google-http-client-1.34.0.jar;C:\Users\user\.m2\repository\io\opencensus\opencensus-api\0.24.0\opencensus-api-0.24.0.jar;C:\Users\user\.m2\repository\io\grpc\grpc-context\1.22.1\grpc-context-1.22.1.jar;C:\Users\user\.m2\repository\io\opencensus\opencensus-contrib-http-util\0.24.0\opencensus-contrib-http-util-0.24.0.jar;C:\Users\user\.m2\repository\com\google\http-client\google-http-client-jackson2\1.34.2\google-http-client-jackson2-1.34.2.jar;C:\Users\user\.m2\repository\com\google\oauth-client\google-oauth-client-jetty\1.30.6\google-oauth-client-jetty-1.30.6.jar;C:\Users\user\.m2\repository\com\google\oauth-client\google-oauth-client-java6\1.30.6\google-oauth-client-java6-1.30.6.jar;C:\Users\user\.m2\repository\com\google\apis\google-api-services-gmail\v1-rev110-1.25.0\google-api-services-gmail-v1-rev110-1.25.0.jar;C:\Users\user\.m2\repository\javax\mail\javax.mail-api\1.6.2\javax.mail-api-1.6.2.jar;C:\Users\user\.m2\repository\com\sun\mail\javax.mail\1.5.1\javax.mail-1.5.1.jar;C:\Users\user\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\user\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\user\.m2\repository\org\json\json\20211205\json-20211205.jar;C:\Users\user\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\user\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -35,7 +35,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire78683295702620325\surefirebooter4502227943471926173.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire15212438745944541505\surefirebooter12224563358934137060.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.15+8-LTS-149"/>
@@ -66,7 +66,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Verify selected project status should be reflect in filtered area" classname="Base Functionality for Implementation Manager" time="109.432">
+  <testcase name="Verify selected project status should be reflect in filtered area" classname="Base Functionality for Implementation Manager" time="109.707">
     <system-out><![CDATA[┌───────────────────────────────────────────────────────────────────────────────────┐
 │ Share your Cucumber Report with your team at https://reports.cucumber.io          │
 │ Activate publishing with one of the following:                                    │
@@ -97,22 +97,22 @@ Connected to Selenium Grid: false
  
 Cookies deleted
 Dimensions of viewport is  (1382, 736)
-Leaving getWebDriver and driver is currently null? ChromeDriver: chrome on WINDOWS (7be944e44c6f277c210fba7c94c1f022)
+Leaving getWebDriver and driver is currently null? ChromeDriver: chrome on WINDOWS (0cc10e738a6454a9d280b3784832bb6d)
 Thread ID - 16 vdr_ssayeem@parata.com IM
 Running internal login steps
 Proxy element for: DefaultElementLocator 'By.cssSelector: mat-card-actions > button' clicked
 Main Login Button Clicked
 Proxy element for: DefaultElementLocator 'By.id: btn-login' clicked
-[[ChromeDriver: chrome on WINDOWS (7be944e44c6f277c210fba7c94c1f022)] -> id: idSIButton9] submitted
+[[ChromeDriver: chrome on WINDOWS (0cc10e738a6454a9d280b3784832bb6d)] -> id: idSIButton9] submitted
 Proxy element for: DefaultElementLocator 'By.id: idSIButton9' submitted
 https://frontend.stg.tacodevdomain.com/customer-management
 No warning
   Given user logged in TacoUI with "IM" credentials                         # com.parata.steps.LoginPageSteps.userLoggedInTacoUIWithCredentials(java.lang.String)
-[[ChromeDriver: chrome on WINDOWS (7be944e44c6f277c210fba7c94c1f022)] -> xpath: //*[@id="D-MnuImTool"]/a] clicked
-  When user clicks  ImplementaionMgmt icon                                  # com.parata.steps.ImplementationMPageSteps.implementaionMgmtClicked()
+[[ChromeDriver: chrome on WINDOWS (0cc10e738a6454a9d280b3784832bb6d)] -> xpath: //*[@id="D-MnuImTool"]/a] clicked
+  When user clicks ImplementaionMgmt icon                                   # com.parata.steps.ImplementationMPageSteps.implementaionMgmtClicked()
 https://frontend.stg.tacodevdomain.com/im-tool
   Then user will land "im-tool" page                                        # com.parata.steps.ImplementationMPageSteps.userWillLandPage(java.lang.String)
-[[ChromeDriver: chrome on WINDOWS (7be944e44c6f277c210fba7c94c1f022)] -> xpath: //*[@id="mat-select-0"]] clicked
+[[ChromeDriver: chrome on WINDOWS (0cc10e738a6454a9d280b3784832bb6d)] -> xpath: //*[@id="mat-select-0"]] clicked
   And user clicks Project Status dropdown                                   # com.parata.steps.ImplementationMPageSteps.userClicksAllRolesDropdown()
 NotProcessed
 Exported
@@ -121,21 +121,21 @@ Imported
 DuplicateNDC
 All
 6
-[[ChromeDriver: chrome on WINDOWS (7be944e44c6f277c210fba7c94c1f022)] -> xpath: //*[@id="mat-option-5"]/span] clicked
+[[ChromeDriver: chrome on WINDOWS (0cc10e738a6454a9d280b3784832bb6d)] -> xpath: //*[@id="mat-option-5"]/span] clicked
   And select 'NotProcessed' project status                                  # com.parata.steps.ImplementationMPageSteps.selectRole(java.lang.String)
-  Then user enters "131116" into the search bar for scearching customer     # com.parata.steps.ImplementationMPageSteps.searchCustomerNumber(java.lang.String)
-[[ChromeDriver: chrome on WINDOWS (7be944e44c6f277c210fba7c94c1f022)] -> xpath: //*[@id="add_site"]] clicked
-  Then user click import button                                             # com.parata.steps.ImplementationMPageSteps.clickImportButton()
+  And user enters "131116" into the search bar                              # com.parata.steps.ImplementationMPageSteps.searchCustomerNumber(java.lang.String)
+[[ChromeDriver: chrome on WINDOWS (0cc10e738a6454a9d280b3784832bb6d)] -> xpath: //*[@id="add_site"]] clicked
+  And user click import button                                              # com.parata.steps.ImplementationMPageSteps.clickImportButton()
 In teardown, just closed driver for scenario Verify selected project status should be reflect in filtered area
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 52432
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 26964
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 04, 2022 12:41:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 04, 2022 2:46:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

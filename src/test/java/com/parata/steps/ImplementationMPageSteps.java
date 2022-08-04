@@ -17,7 +17,7 @@ import org.openqa.selenium.support.pagefactory.ByAll;
 
 /**
  * @author MFU
- * 1/4/2021
+ * 7/17/2022
  */
 public class ImplementationMPageSteps extends AutomationBase {
     ImplementationMPage implementationMPage = new ImplementationMPage(openDriver());
@@ -62,7 +62,7 @@ public class ImplementationMPageSteps extends AutomationBase {
         smartWait.waitUntilPageIsLoaded(70);
     }
 
-    @Then("user click import button")
+    @And("user click import button")
     public void clickImportButton() throws InterruptedException{
         implementationMPage.userclickedImportButton();
         smartWait.waitUntilPageIsLoaded(70);

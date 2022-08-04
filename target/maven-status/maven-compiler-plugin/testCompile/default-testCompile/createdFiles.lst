@@ -30,7 +30,6 @@ com\parata\models\GET_User_Request$GET_User_RequestBuilder.class
 com\parata\utils\Tokenizer.class
 com\parata\steps\LoginPageSteps.class
 com\parata\base\AutomationFactory.class
-com\parata\pages\AngularInactiveUsersPage.class
 com\parata\utils\services\authorization\DeleteOrgRequest.class
 com\parata\pages\LoginPage.class
 com\parata\constants\GLOBAL.class

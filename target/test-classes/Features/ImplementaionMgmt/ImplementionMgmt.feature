@@ -6,12 +6,12 @@ Feature: Base Functionality for Implementation Manager
 
   @positive @sanity
   Scenario:Verify selected project status should be reflect in filtered area
-    When user clicks  ImplementaionMgmt icon
+    When user clicks ImplementaionMgmt icon
     Then user will land "im-tool" page
-    And  user clicks Project Status dropdown
-    And  select 'NotProcessed' project status
-    Then user enters "131116" into the search bar for scearching customer
-    Then user click import button
+    And user clicks Project Status dropdown
+    And select 'NotProcessed' project status
+    And user enters "131116" into the search bar
+    And user click import button
 
 
 

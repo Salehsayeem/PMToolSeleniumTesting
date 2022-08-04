@@ -14,7 +14,6 @@ E:\work\PMToolSeleniumTesting\src\test\java\com\parata\models\authorizationservi
 E:\work\PMToolSeleniumTesting\src\test\java\com\parata\utils\services\authorization\DeleteOrgRequest.java
 E:\work\PMToolSeleniumTesting\src\test\java\com\parata\constants\QUERIES.java
 E:\work\PMToolSeleniumTesting\src\test\java\com\parata\models\Token.java
-E:\work\PMToolSeleniumTesting\src\test\java\com\parata\pages\AngularInactiveUsersPage.java
 E:\work\PMToolSeleniumTesting\src\test\java\com\parata\utils\SmartWait.java
 E:\work\PMToolSeleniumTesting\src\test\java\com\parata\constants\CONTEXT.java
 E:\work\PMToolSeleniumTesting\src\test\java\com\parata\steps\Hooks.java

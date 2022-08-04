@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="109.455">
-    <testcase classname="Base Functionality for Implementation Manager" name="Verify selected project status should be reflect in filtered area" time="109.306">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="109.73">
+    <testcase classname="Base Functionality for Implementation Manager" name="Verify selected project status should be reflect in filtered area" time="109.585">
         <system-out>
             <![CDATA[Given user logged in TacoUI with "IM" credentials...........................passed
-When user clicks  ImplementaionMgmt icon....................................passed
+When user clicks ImplementaionMgmt icon.....................................passed
 Then user will land "im-tool" page..........................................passed
 And user clicks Project Status dropdown.....................................passed
 And select 'NotProcessed' project status....................................passed
-Then user enters "131116" into the search bar for scearching customer.......passed
-Then user click import button...............................................passed
+And user enters "131116" into the search bar................................passed
+And user click import button................................................passed
 ]]>
         </system-out>
     </testcase>
