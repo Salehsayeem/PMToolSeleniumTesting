@@ -26,18 +26,12 @@ public class LoginPageSteps extends AutomationBase{
         testContext = context;
     }
 
-    @Given("user logged in TacoUI")
-    public void userloggedinTacoUI()
-    {
-        System.out.println("Running external login steps");
-        launcher.navigateToParataApplication();
-        loginPage.clickMainLoginButton();
-        loginPage.typeEmailNew("vdr_ssayeem@parata.com");
-        //loginPage.clickLoginButton();
-        loginPage.typePasswordExternal("1010997637@Hydrus");
-        loginPage.clickLoginButton();
+    @Then("user should land the page {string}")
+    public void userShouldLandPageequalsor(String url_part) {
+        String landingUrl = openDriver().getCurrentUrl();
+        System.out.println(landingUrl);
+        Assert.assertTrue(landingUrl.equals(url_part));
     }
-
 
     @Given("user logged in TacoUI with {string} credentials")
     public void userLoggedInTacoUIWithCredentials(String arg0) {
@@ -54,7 +48,6 @@ public class LoginPageSteps extends AutomationBase{
             loginPage.typeEmailNew(username);
             loginPage.clickLoginButton();
             loginPage.typePasswordInternal(password);
-            //loginPage.clickLoginButton(); //added
             loginPage.clickSignInButton();
             loginPage.clickSignInButton();
             smartWait.waitUntilPageIsLoaded(20);
@@ -63,33 +56,12 @@ public class LoginPageSteps extends AutomationBase{
             launcher.navigateToParataApplication();
             loginPage.clickMainLoginButton();
             loginPage.typeEmailNew(username);
-            //loginPage.clickLoginButton();
             loginPage.typePasswordExternal(password);
             loginPage.clickLoginButton();
             smartWait.actionDelay(5000);
             smartWait.waitUntilPageIsLoaded(20);
         }
-        //Previous Login steps
-        /* if (username.contains(("@parata.com"))) {
-            System.out.println("Running internal login steps");
-            launcher.navigateToParataApplication();
-            loginPage.clickMainLoginButton();
-            loginPage.typeEmail(username);
-            loginPage.clickLoginButton();
-            loginPage.typePasswordInternal(password);
-            loginPage.clickSignInButton();
-            loginPage.clickSignInButton();
-            smartWait.waitUntilPageIsLoaded(20);
-        } else {
-            System.out.println("Running external login steps");
-            launcher.navigateToParataApplication();
-            loginPage.clickMainLoginButton();
-            loginPage.typeEmail(username);
-            loginPage.clickLoginButton();
-            loginPage.typePasswordExternal(password);
-            loginPage.clickLoginButton();
-            smartWait.waitUntilPageIsLoaded(20);
-        }*/
+
         if (username == (ConfigReader.getProperty("unauthorized.username"))) {
             String landingUrl = openDriver().getCurrentUrl();
             System.out.println(landingUrl);
@@ -116,7 +88,6 @@ public class LoginPageSteps extends AutomationBase{
         smartWait.waitUntilPageIsLoaded(20);
         System.out.println(loginPage.warningAuthorization.getText());
         Assert.assertTrue(Utility.elementExists(loginPage.warningAuthorization));
-        //Assert.assertTrue(loginPage.warningAuthorization.getText().equalsIgnoreCase("You do not have authorization to access site, Please reach out to your Pharmacy's Admin if you have any questions"));
     }
 
     @When("user clicks login button")
