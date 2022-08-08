@@ -60,68 +60,7 @@ public class ImplementationMPageSteps extends AutomationBase {
         smartWait.waitUntilPageIsLoaded(20);
     }
 
-    @Then("user click import button")
-    public void clickImportButton() throws InterruptedException{
-        implementationMPage.userclickedImportButton();
-        smartWait.waitUntilPageIsLoaded(90);
-    }
 
-    @Then("user click browse button")
-    public void clickBrowseButton() throws InterruptedException{
-        implementationMPage.userclickedBrowseButton();
-        smartWait.waitUntilPageIsLoaded(90);
-    }
-
-    @Then("user click update button")
-    public void clickUploadButton() throws InterruptedException{
-        implementationMPage.userclickedUploadButton();
-        smartWait.waitUntilPageIsLoaded(90);
-    }
-
-    @Then("user clicks Production Drug dropdown")
-    public void userClicksDrugMapDropdown1() throws InterruptedException {
-        implementationMPage.userselectMapDropdown1();
-        smartWait.waitUntilPageIsLoaded(10);
-    }
-
-    @Then("select {string} from drug dropdown")
-    public void selectDrugProducName(String arg0) throws InterruptedException {
-        Utility.dropdownCount(openDriver(), ".mat-option>span");
-        implementationMPage.selectBtnProductDragName();
-        smartWait.waitUntilPageIsLoaded(10);
-    }
-
-    @Then("user clicks NDC from Drug dropdown")
-    public void userClicksDrugMapDropdown2() throws InterruptedException {
-        implementationMPage.userselectMapDropdown2();
-        smartWait.waitUntilPageIsLoaded(10);
-    }
-
-    @Then("select {string} NDC from drug dropdown")
-    public void selectDrugNdcName(String arg0) throws InterruptedException {
-        Utility.dropdownCount(openDriver(), ".mat-option>span");
-        implementationMPage.selectBtnNdcDragName();
-        smartWait.waitUntilPageIsLoaded(15);
-    }
-
-    @Then("user clicks Rx from drug dropdown")
-    public void userClicksDrugMapDropdown3() throws InterruptedException {
-        implementationMPage.userselectMapDropdown3();
-        smartWait.waitUntilPageIsLoaded(10);
-    }
-
-    @Then("select {string} Rx from drug dropdown")
-    public void selectDrugRxName(String arg0) throws InterruptedException {
-        Utility.dropdownCount(openDriver(), ".mat-option>span");
-        implementationMPage.selectBtnRxDragName();
-        smartWait.waitUntilPageIsLoaded(10);
-    }
-
-    @Then("user click next button")
-    public void userClicksNextButton() throws InterruptedException {
-        implementationMPage.userclickedNextButton();
-        smartWait.waitUntilPageIsLoaded(10);
-    }
 
 }
 

@@ -10,7 +10,7 @@ Feature: Base Functionality for Implementation Manager
 
 
   @positive @sanity
-  Scenario:selected project status should be reflect in filtered area with search
+  Scenario:Selected Project Status Should Be Reflect In Filtered Area With Search
     Given user logged in TacoUI with "IM" credentials
     When user clicks ImplementaionMgmt icon
     Then user will land "im-tool" page

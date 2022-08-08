@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.177"/>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="200.699">
+    <testcase classname="Base Functionality For Import Wizard Mapping" name="Verify Import Wizard Page" time="200.554">
+        <system-out>
+            <![CDATA[Given user logged in TacoUI with "IM" credentials...........................passed
+When user clicks ImplementaionMgmt icon.....................................passed
+Then user will land "im-tool" page..........................................passed
+Then user clicks Project Status dropdown....................................passed
+Then select 'NotProcessed' project status...................................passed
+Then user enters "304949" into the search bar...............................passed
+When user click import button...............................................passed
+Then user click browse button...............................................passed
+Then user click update button...............................................passed
+Then user clicks Production Drug dropdown...................................passed
+Then select 'Product Name' from drug dropdown...............................passed
+Then user clicks NDC from Drug dropdown.....................................passed
+Then select 'NDC11' NDC from drug dropdown..................................passed
+Then user clicks Rx from drug dropdown......................................passed
+Then select 'Rx Count' Rx from drug dropdown................................passed
+Then user click next button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
