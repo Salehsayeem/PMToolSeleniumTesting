@@ -26,6 +26,7 @@ Feature: Base Functionality for Implementation Manager
     Then select 'NDC11' NDC from drug dropdown
     Then user clicks Rx from drug dropdown
     Then select 'Rx Count' Rx from drug dropdown
+    Then  user click next button
 
 
 

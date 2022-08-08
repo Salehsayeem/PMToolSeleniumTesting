@@ -106,19 +106,22 @@ public class ImplementationMPageSteps extends AutomationBase {
 
     @Then("user clicks Rx from drug dropdown")
     public void userClicksDrugMapDropdown3() throws InterruptedException {
-        implementationMPage.selectBtnRxDragName();
+        implementationMPage.userselectMapDropdown3();
         smartWait.waitUntilPageIsLoaded(10);
     }
 
     @Then("select {string} Rx from drug dropdown")
     public void selectDrugRxName(String arg0) throws InterruptedException {
         Utility.dropdownCount(openDriver(), ".mat-option>span");
-        implementationMPage.userselectMapDropdown3();
+        implementationMPage.selectBtnRxDragName();
         smartWait.waitUntilPageIsLoaded(10);
     }
 
-
-
+    @Then("user click next button")
+    public void userClicksNextButton() throws InterruptedException {
+        implementationMPage.userclickedNextButton();
+        smartWait.waitUntilPageIsLoaded(10);
+    }
 
 }
 

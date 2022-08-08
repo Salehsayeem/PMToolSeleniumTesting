@@ -8,31 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parata/pages/ImplementationMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parata/pages/ImplementationMPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parata/steps/ImplementationMPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parata/steps/ImplementationMPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parata/steps/LoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parata/steps/LoginPageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/ImplementaionMgmt/ImplementionMgmt.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/ImplementaionMgmt/ImplementionMgmt.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/PmLogin/PmToolLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/PmLogin/PmToolLogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/configs/credentials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/configs/credentials.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/advanced-reports/cucumber-html-reports/overview-failures.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/advanced-reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/advanced-reports/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/advanced-reports/cucumber-html-reports/overview-steps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/advanced-reports/cucumber-html-reports/overview-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/advanced-reports/cucumber-html-reports/report-feature_535388901.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/advanced-reports/cucumber-html-reports/report-tag_2203492621.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/advanced-reports/cucumber-html-reports/report-tag_3182320184.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/advanced-reports/cucumber-html-reports/report-tag_4072887346.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-prettya.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-prettya.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber_a.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber_a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber_a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber_a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2022-08-04T14-46-34_207.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Base Functionality for Implementation Manager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Base Functionality for Implementation Manager.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/taco-ui-testing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/taco-ui-testing.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/ImplementaionMgmt/ImplementionMgmt.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/ImplementaionMgmt/ImplementionMgmt.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/PmLogin/PmToolLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/PmLogin/PmToolLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/selectedprojectstatusshouldbereflectinfilteredareawithsearch_fail.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/selectedprojectstatusshouldbereflectinfilteredareawithsearch_fail.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/parata/pages/ImplementationMPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/parata/pages/ImplementationMPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/parata/steps/ImplementationMPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/parata/steps/ImplementationMPageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/parata/steps/LoginPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/parata/steps/LoginPageSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/configs/credentials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configs/credentials.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

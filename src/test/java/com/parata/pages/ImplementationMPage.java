@@ -60,6 +60,10 @@ public class ImplementationMPage extends CommonPageMethods {
     @FindBy(how = How.XPATH, using = ("//*[@id=\"mat-option-24\"]"))
     public WebElement btnRxName;
 
+    @FindBy(how = How.XPATH, using = ("/html/body/div[3]/div[2]/div/mat-dialog-container/app-import-wizard-one/div/form/mat-dialog-actions/button[2]"))
+    public WebElement btnNext;
+
+
     WebDriver webDriver;
 
     public ImplementationMPage(WebDriver webDriver) {
@@ -116,6 +120,9 @@ public class ImplementationMPage extends CommonPageMethods {
     }
     public void selectBtnRxDragName() throws InterruptedException {
         click(btnRxName);
+    }
+    public void userclickedNextButton() throws InterruptedException {
+        click(btnNext);
     }
 
 }
