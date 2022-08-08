@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fb3192f-47e3-43d8-8e6d-dd06e73fe550" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/ImplementaionMgmt/ImportWizerdMapImported.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parata/pages/ImplementationMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parata/pages/ImplementationMPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parata/steps/ImplementationMPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parata/steps/ImplementationMPageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/ImplementaionMgmt/ImplementionMgmt.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/ImplementaionMgmt/ImplementionMgmt.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/selectedprojectstatusshouldbereflectinfilteredareawithsearch_fail.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/selectedprojectstatusshouldbereflectinfilteredareawithsearch_fail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/parata/pages/ImplementationMPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/parata/pages/ImplementationMPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +31,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: selected project status should be reflect in filtered area with search">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify Import Wizard for Mapping imported columns">
     <configuration name="tetscl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tetscl" />
       <module name="PMTool" />
@@ -46,15 +45,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login to Taco UI with PM credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify Import Wizard for Mapping imported columns" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/PmLogin/PmToolLogin.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/ImplementaionMgmt/ImportWizerdMapImported.feature" />
       <option name="GLUE" value="com.parata.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="PMTool" />
-      <option name="NAME_FILTER" value="^Login to Taco UI with PM credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login to Taco UI with PM credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login to Taco UI with PM credentials" />
+      <option name="NAME_FILTER" value="^Verify Import Wizard for Mapping imported columns$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Import Wizard for Mapping imported columns$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Import Wizard for Mapping imported columns" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify Import Wizard for Mapping imported columns" />
         <item itemvalue="Cucumber Java.Scenario: selected project status should be reflect in filtered area with search" />
         <item itemvalue="Cucumber Java.Scenario: selected  with search" />
         <item itemvalue="JUnit.ATestRunner" />
         <item itemvalue="Application.tetscl" />
-        <item itemvalue="Cucumber Java.Scenario: Login to Taco UI with PM credentials" />
       </list>
     </recent_temporary>
   </component>
@@ -164,5 +163,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
